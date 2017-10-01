@@ -1,5 +1,5 @@
 {
-  "name": "install-scripts-example",
+  "name": "install-scripts-example-for-pnpm",
   "version": "1.0.0",
   "description": "A package that creates files by pre- and postinstall scripts",
   "scripts": {
