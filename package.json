@@ -5,17 +5,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "node append prepare",
-    "preinstall": "hello-world-js-bin && node append preinstall",
-    "install": "echo Hi && node append install",
-    "postinstall": "hello-world-js-bin && node append postinstall"
+    "preinstall": "node append preinstall",
+    "install": "node append install",
+    "postinstall": "node append postinstall"
   },
   "author": "Zoltan Kochan <z@kochan.io> (https://www.kochan.io/)",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/pnpm/pnpm/tree/master/test/packages/postinstall-example"
-  },
-  "dependencies": {
-    "hello-world-js-bin": "1.0.0"
   }
 }
